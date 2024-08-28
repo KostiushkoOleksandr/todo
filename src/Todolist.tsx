@@ -69,7 +69,6 @@ export function Todolist(props: PropsType) {
                     const onChangeTitleHandler = (newValue: string) => {
                         props.changeTitle(el.id, newValue, props.id)
                     }
-
                     return <div key={el.id}>
                         <Checkbox
                             className={el.isDone ? "is-done" : ""}
