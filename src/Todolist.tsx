@@ -84,7 +84,8 @@ export function Todolist(props: PropsType) {
                 })
             }
             <div>
-                <Button variant={props.filter === "all" ? "contained" : "text"} size={"small"} onClick={onAllClickHandler}>all
+                <Button variant={props.filter === "all" ? "contained" : "text"} size={"small"} onClick={onAllClickHandler}>
+                    all
                 </Button>
                 <Button variant={props.filter === "active" ? "contained" : "text"} color={"primary"} size={"small"}
                         onClick={onActiveClickHandler}>active
@@ -93,7 +94,6 @@ export function Todolist(props: PropsType) {
                         onClick={onCompletedClickHandler}>completed
                 </Button>
             </div>
-
         </div>
     )
 }
