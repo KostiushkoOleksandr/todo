@@ -82,7 +82,6 @@ function App() {
     let todolistId1 = v1()
     let todolistId2 = v1()
 
-
     let [todolists, setTodolists] = useState<Array<TodoListType>>([
         {id: todolistId1, title: "Learn JS", filter: "all"},
         {id: todolistId2, title: "Learn React", filter: "all"}
